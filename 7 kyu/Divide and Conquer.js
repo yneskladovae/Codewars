@@ -14,3 +14,4 @@ function divCon(x) {
 
   return numSum - strSum;
 }
+
