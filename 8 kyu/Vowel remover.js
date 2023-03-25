@@ -10,6 +10,6 @@ Examples
 Don't worry about uppercase vowels.
 */
 
-function shortcut(string){
+function shortcut(string) {
   return string.replace(/[aeiou]/g, '');
 }
