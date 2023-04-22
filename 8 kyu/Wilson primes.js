@@ -8,7 +8,8 @@ Your task is to create a function that returns true if the given number is a Wil
 
 function amIWilson(p) {
     function f(n) {
-      return n <= 1 ? 1 : n * f(n - 1);
+        return n <= 1 ? 1 : n * f(n - 1);
     }
+
     return (f(p - 1) + 1) / (p * p) % 1 === 0;
 }
